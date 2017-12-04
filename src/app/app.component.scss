@@ -1,0 +1,13 @@
+.wrap {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 5000px;
+  .container {
+    height: 80%;
+    width: 80%;
+    background-color: #969696;
+  }
+}
