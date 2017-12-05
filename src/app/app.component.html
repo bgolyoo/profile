@@ -1,6 +1,27 @@
 <div #wrap class="wrap" appMouseTracker (xChange)="onXChange($event)" (yChange)="onYChange($event)">
   <div class="container" appTransformRotate [offsetPercentX]="offsetPercentX" [offsetPercentY]="offsetPercentY">
-    <pre>{{offsetPercentX}}</pre>
-    <pre>{{offsetPercentY}}</pre>
+    <div class="win98">
+      <div class='window'>
+        <div class='header'>
+          <img class='icon' src='/assets/icons/txt.gif' srcset='/assets/icons/txt@2x.gif 32w, /assets/icons/txt@4x.gif 64w' />
+          Untitled - Notepad
+          <div class='buttons'>
+            <button disabled>_</button>
+            <button disabled>&#9634;</button>
+            <button disabled>&times;</button>
+          </div>
+        </div>
+
+        <div class='content'>
+          <div>
+            <h3>R U OK?</h3>
+            <p></p>
+            <button disabled>OK</button>
+            <button>Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>

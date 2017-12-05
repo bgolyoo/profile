@@ -21,11 +21,11 @@ export class AppComponent {
   constructor() { }
 
   public onXChange(xPos: number): void {
-    this.offsetPercentX = (xPos - (this.elementWidth / 2)) / (this.elementWidth / 2) * 100;
+    this.offsetPercentX = (xPos - (this.elementWidth / 2)) / (this.elementWidth / 2) * 10;
   }
 
   public onYChange(yPos: number): void {
-    this.offsetPercentY = (yPos - (this.elementHeight / 2)) / (this.elementHeight / 2) * -100;
+    this.offsetPercentY = (yPos - (this.elementHeight / 2)) / (this.elementHeight / 2) * -10;
   }
 
 }

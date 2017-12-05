@@ -8,6 +8,13 @@
   .container {
     height: 80%;
     width: 80%;
-    background-color: #969696;
+
+    .win98 {
+      height: 100%;
+      .window {
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
 }
